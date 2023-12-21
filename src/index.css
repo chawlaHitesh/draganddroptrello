@@ -1,0 +1,124 @@
+/* styles.css */
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.input {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(
+        45deg,
+        #4caf50,
+        #45a049
+    ); /* Gradient background */
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    transition: background 0.3s ease; /* Add transition for smooth effect */
+}
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #4CAF50; /* Green color for Edit button */
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #FF0000; /* Red color for Delete button */
+  color: #fff;
+}
+
+.done-button {
+  background-color: #4CAF50; /* Green color for Done button */
+  color: #fff;
+}
+
+.undone-button {
+  background-color: #FF0000; /* Red color for Undone button */
+  color: #fff;
+}
+
+.button:disabled {
+  background-color: #ddd;
+  color: #666;
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+/* For button */
+
+
+.button__action {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50; /* Green color for Edit button */
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #FF0000; /* Red color for Delete button */
+    color: #fff;
+  }
+  
+  .done-button {
+    background-color: #4CAF50; /* Green color for Done button */
+    color: #fff;
+  }
+  
+  .undone-button {
+    background-color: #FF0000; /* Red color for Undone button */
+    color: #fff;
+  }
+  
+  .button__action:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+
+.button__action:hover {
+    background: linear-gradient(
+        45deg,
+        #45a049,
+        #4caf50
+    ); /* Change gradient on hover */
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}

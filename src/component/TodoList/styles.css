@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* ... (previous styles) */
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background 0.3s ease;
+}
+
+.todo-item:hover {
+    background: #f5f5f5;
+}
+
+.todo-item.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.action-buttons button {
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    /* background-color: #3498db; */
+    color: white;
+    transition: background 0.3s ease;
+}
+
+.action-buttons button:hover {
+    background: #2980b9;
+}
+
+/* dfjkndfk */
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.children {
+    margin-top: 12px;
+}
+
+.child {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.main__container {
+    display: flex;
+}
